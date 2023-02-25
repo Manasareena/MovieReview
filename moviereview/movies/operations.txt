@@ -1,0 +1,22 @@
+1. to create a movie object
+    method:POST
+    URL:localhost:8000/m/movie
+    data: {"name":"Black Panther","ticket_price":240,"genre":"Action"}
+2. to get  movie
+    method:GET
+    URL:localhost:8000/m/movie
+
+3. to get a specific movie
+    method:GET
+    URL:localhost:8000/m/movie/1
+
+4. to delete a specific movie
+    method:DELETE
+    URL:localhost:8000/m/movie/1
+5.to update a specific movie
+    method:PUT
+    URL:localhost:8000/m/movie/1
+    data: {"name":"Black Panther","ticket_price":240,"genre":"Action"}
+{
+  "token": "5120d240ee73141e3ec4147f9f407edb5f4ad762"
+}
